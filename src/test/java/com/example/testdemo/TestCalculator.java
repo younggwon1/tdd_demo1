@@ -24,9 +24,9 @@ public class TestCalculator {
 
     @Test
         public void testSub() {
-        Calculator calc1 = new Calculator();
-        int result1 = calc1.sub(20, 10);
-        assertTrue(result1 == 10);
+        Calculator calc = new Calculator();
+        int result = calc.sub(20, 10);
+        assertTrue(result == 10);
     }
 
     @Test
